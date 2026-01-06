@@ -54,6 +54,22 @@ nav .menu li a{
 .btn:hover{
     background-color: #e65c00;
 }
+.section-heading{
+    /* border: 1px solid #43240f; */
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: normal;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 #banner{
     /* border: 1px solid blue; */
     margin:47px 38px 0 230px;
@@ -87,4 +103,33 @@ nav .menu li a{
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+   width: 71%;
+   max-width: 1140px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #FFF8F3;
+   padding: 131px 156px;
+}
+#about .about-container .about-info{
+    /* border: 1px solid #FD6E0A; */
+    display: flex;
+    justify-content: space-around;
+
+}
+/* .about-info .info-card{
+    border: 1px solid #FD6E0A;
+} */
+.about-info .info-card h4{
+    font-size: 20px;
+   
+}
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575;
+    font-weight: normal;
 }
